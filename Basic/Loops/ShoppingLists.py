@@ -34,8 +34,19 @@ while not exit_list:
 
         # Add the product in the list
         else:
-            shopping_list_items.append(item)
-            print(f'The {item} item was added successfully')
+
+            # Add confirmation to add the product
+            confirmation = None
+            while confirmation not in ['Y', 'N']:
+                confirmation = input('Are you sure that you want to add this element? [Y/N]')
+
+            # If the confirmation is Y the product will be added to the list
+            if confirmation == 'Y':
+                shopping_list_items.append(item)
+                print(f'The {item} item was added successfully')
+            else:
+                print(f'The {item} item was not added to the list')
+
             input('Press any key to continue...')
 
     # Code for Show option process
