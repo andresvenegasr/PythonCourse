@@ -1,6 +1,5 @@
 import os
 import random
-
 import readchar
 
 POS_X = 0
