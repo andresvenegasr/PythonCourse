@@ -8,6 +8,7 @@ def main():
     print(exponentiation(2))
     print(exponentiation(3))
     print(exponentiation(3, 3))
+    print(exponentiation(3, 9))
 
 
 if __name__ == "__main__":
