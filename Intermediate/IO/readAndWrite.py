@@ -1,6 +1,7 @@
 import os
 
 EXIT = "EXIT"
+FILENAME = "shopping_list.txt"
 
 accepted_products = ["milk", "chocolate", "eggs", "pen", "chicken"]
 
@@ -21,19 +22,36 @@ def add_product():
 #    file = open(f"{filename}.txt", "w")
 #    file.write("\n".join(shopping_list))
 #    file.close()
-def write_file(filename, shopping_list):
-    with open(f"{filename}.txt", "w") as file:
+def write_file(shopping_list):
+    with open(FILENAME, "w") as file:
         file.write("\n".join(shopping_list))
+
+
+def open_file():
+    if input("Do you want open the file to load the list? [y/n] ") == "y":
+        try:
+            with open(FILENAME, "r") as file:
+                return file.read().split("\n")
+        except FileNotFoundError:
+            print(f"The file {FILENAME} does not exists.")
+            return []
+    else:
+        return []
 
 
 def main():
     os.system('cls')
-    shopping_list = []
+    shopping_list = open_file()
 
     item = add_product()
 
     while item != EXIT:
-        shopping_list.append(item)
+
+        if item.lower() in [_item.lower() for _item in shopping_list]:
+            print("The product already exists")
+        else:
+            shopping_list.append(item)
+
         print("\n".join(shopping_list))
         item = add_product()
         os.system('cls')
@@ -41,8 +59,7 @@ def main():
     os.system('cls')
 
     if len(shopping_list) > 0:
-        filename = input("Enter the file name: ")
-        write_file(filename, shopping_list)
+        write_file(shopping_list)
 
 
 if __name__ == "__main__":
