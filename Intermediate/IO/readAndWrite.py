@@ -6,12 +6,9 @@ accepted_products = ["milk", "chocolate", "eggs", "pen", "chicken"]
 
 
 def add_product():
-    product = None
-    while product not in accepted_products:
+    product = ""
+    while product.lower() not in accepted_products and product != EXIT:
         product = input("Enter a product ({} to close): ".format(EXIT))
-
-        if product == EXIT:
-            break
 
         if product not in accepted_products:
             os.system('cls')
