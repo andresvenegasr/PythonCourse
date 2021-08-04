@@ -20,10 +20,13 @@ def add_product():
     return product
 
 
+# def write_file(filename, shopping_list):
+#    file = open(f"{filename}.txt", "w")
+#    file.write("\n".join(shopping_list))
+#    file.close()
 def write_file(filename, shopping_list):
-    file = open(f"{filename}.txt", "w")
-    file.write("\n".join(shopping_list))
-    file.close()
+    with open(f"{filename}.txt", "w") as file:
+        file.write("\n".join(shopping_list))
 
 
 def main():
