@@ -1,0 +1,107 @@
+1628124977183	geckodriver	INFO	Listening on 127.0.0.1:58501
+1628125004362	geckodriver	INFO	Listening on 127.0.0.1:64097
+1628125029072	geckodriver	INFO	Listening on 127.0.0.1:65128
+1628125070586	geckodriver	INFO	Listening on 127.0.0.1:62827
+1628125140906	geckodriver	INFO	Listening on 127.0.0.1:59699
+1628125211442	geckodriver	INFO	Listening on 127.0.0.1:64152
+1628125282416	geckodriver	INFO	Listening on 127.0.0.1:57367
+1628125285466	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\veneg\\AppData\\Local\\Temp\\rust_mozprofile7Ycvwv"
+1628125285771	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\veneg\\AppData\\Local\\Temp\\rust_mozprofile7Ycvwv\\search.json.mozlz4", (void 0)))
+1628125287735	Marionette	INFO	Listening on port 54862
+1628125288153	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628125290259	Marionette	INFO	Stopped listening on port 54862
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628125351664	geckodriver	INFO	Listening on 127.0.0.1:51067
+1628125354696	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\veneg\\AppData\\Local\\Temp\\rust_mozprofileew2VWx"
+1628125354991	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\veneg\\AppData\\Local\\Temp\\rust_mozprofileew2VWx\\search.json.mozlz4", (void 0)))
+1628125356905	Marionette	INFO	Listening on port 57373
+1628125357386	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628125416467	Marionette	INFO	Stopped listening on port 57373
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\veneg\\AppData\\Local\\Temp\\rust_mozprofileF7Vz9b"
+1628125415415	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\veneg\\AppData\\Local\\Temp\\rust_mozprofileF7Vz9b\\search.json.mozlz4", (void 0)))
+1628125417461	Marionette	INFO	Listening on port 60118
+1628125417771	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123718.js, line 12415: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123718.js, line 13307: unreachable code after return statement
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123718.js, line 13894: unreachable code after return statement
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123718.js, line 14062: unreachable code after return statement
+JavaScript warning: https://www.gandhi.com.mx/aprendendo-a-programar, line 452: unreachable code after return statement
+JavaScript error: https://www.rtb123.com/tags/2CA5DBEA-7528-5908-3AFE-ED196A3ADEE6/btp.js, line 66: SyntaxError: unterminated comment
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/1cf6a80892da6a4d0aacf8e0e8a79044-1628123714.js, line 12415: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.gandhi.com.mx/adolescentes, line 454: unreachable code after return statement
+JavaScript error: https://www.rtb123.com/tags/2CA5DBEA-7528-5908-3AFE-ED196A3ADEE6/btp.js, line 66: SyntaxError: unterminated comment
+JavaScript error: https://www.gandhi.com.mx/adolescentes, line 1: SyntaxError: return not in function
+JavaScript error: https://www.gandhi.com.mx/adolescentes, line 1: SyntaxError: return not in function
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123707.js, line 12415: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123707.js, line 13307: unreachable code after return statement
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123707.js, line 13894: unreachable code after return statement
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123707.js, line 14062: unreachable code after return statement
+JavaScript warning: https://www.gandhi.com.mx/adolescentes/el-nocturno-belfegor, line 452: unreachable code after return statement
+JavaScript error: https://www.rtb123.com/tags/2CA5DBEA-7528-5908-3AFE-ED196A3ADEE6/btp.js, line 66: SyntaxError: unterminated comment
+JavaScript warning: https://www.gandhi.com.mx/aprendendo-a-programar, line 452: unreachable code after return statement
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.gandhi.com.mx/media/css_secure/107964a5691afb91a2a32dd55325cab2-1628123705.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://cdn.gandhi.com.mx/media/css_secure/e95df3e6f0a271adab436a5c3dd95217-1628123708.css without a browsingContextID set
+JavaScript warning: https://www.gandhi.com.mx/aprendendo-a-programar, line 452: unreachable code after return statement
+1628125510586	Marionette	INFO	Stopped listening on port 60118
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628125519128	geckodriver	INFO	Listening on 127.0.0.1:52374
+1628125522140	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\veneg\\AppData\\Local\\Temp\\rust_mozprofileksXLS8"
+1628125522508	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\veneg\\AppData\\Local\\Temp\\rust_mozprofileksXLS8\\search.json.mozlz4", (void 0)))
+1628125524502	Marionette	INFO	Listening on port 49568
+1628125524830	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123715.js, line 12415: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123715.js, line 13307: unreachable code after return statement
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123715.js, line 13894: unreachable code after return statement
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123715.js, line 14062: unreachable code after return statement
+JavaScript warning: https://www.gandhi.com.mx/aprendendo-a-programar, line 452: unreachable code after return statement
+JavaScript error: https://www.rtb123.com/tags/2CA5DBEA-7528-5908-3AFE-ED196A3ADEE6/btp.js, line 66: SyntaxError: unterminated comment
+1628125566671	Marionette	INFO	Stopped listening on port 49568
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\veneg\\AppData\\Local\\Temp\\rust_mozprofilefPtA7W"
+1628125550657	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\veneg\\AppData\\Local\\Temp\\rust_mozprofilefPtA7W\\search.json.mozlz4", (void 0)))
+1628125552493	Marionette	INFO	Listening on port 54916
+1628125552512	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123715.js, line 12415: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123715.js, line 13307: unreachable code after return statement
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123715.js, line 13894: unreachable code after return statement
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123715.js, line 14062: unreachable code after return statement
+JavaScript warning: https://www.gandhi.com.mx/aprendendo-a-programar, line 452: unreachable code after return statement
+JavaScript error: https://www.rtb123.com/tags/2CA5DBEA-7528-5908-3AFE-ED196A3ADEE6/btp.js, line 66: SyntaxError: unterminated comment
+1628125569430	Marionette	INFO	Stopped listening on port 54916
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628125581608	geckodriver	INFO	Listening on 127.0.0.1:54437
+1628125584664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\veneg\\AppData\\Local\\Temp\\rust_mozprofileC9FXuf"
+1628125584957	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\veneg\\AppData\\Local\\Temp\\rust_mozprofileC9FXuf\\search.json.mozlz4", (void 0)))
+1628125586706	Marionette	INFO	Listening on port 56243
+1628125586730	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123718.js, line 12415: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123718.js, line 13307: unreachable code after return statement
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123718.js, line 13894: unreachable code after return statement
+JavaScript warning: https://cdn.gandhi.com.mx/media/js/7b3571d85a48faa0ea544afe95896ebe-1628123718.js, line 14062: unreachable code after return statement
+JavaScript warning: https://www.gandhi.com.mx/aprendendo-a-programar, line 452: unreachable code after return statement
+JavaScript error: https://www.rtb123.com/tags/2CA5DBEA-7528-5908-3AFE-ED196A3ADEE6/btp.js, line 66: SyntaxError: unterminated comment
+[Parent 7236, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1628125600233	Marionette	INFO	Stopped listening on port 56243
